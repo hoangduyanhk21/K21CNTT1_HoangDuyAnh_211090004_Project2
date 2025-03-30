@@ -1,0 +1,67 @@
+﻿/* Đặt nền trang và kiểu chữ chung */
+body {
+    background-color: #f8f9fa; /* màu nền nhẹ, sáng */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 70px; /* Để tạo khoảng trống dưới navbar */
+}
+
+/* Tùy chỉnh tiêu đề */
+h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Cải thiện giao diện bảng */
+.table {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .table th,
+    .table td {
+        padding: 12px;
+        vertical-align: middle;
+        border: 1px solid #dee2e6;
+    }
+
+.thead-dark th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Định dạng cho navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Căn chỉnh form theo kiểu Bootstrap */
+.form-horizontal .form-group {
+    margin-bottom: 15px;
+}
+
+/* Nhấn mạnh các thông báo lỗi */
+.text-danger {
+    font-size: 0.9em;
+}
+
+/* Style cho nút */
+.btn {
+    margin-right: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #e9ecef;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .form-horizontal .control-label {
+        text-align: left;
+        padding-top: 0;
+    }
+}
